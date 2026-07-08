@@ -1,0 +1,1 @@
+sed -i '/fun setSettings/i \    fun completeOnboarding() {\n        val prefs = getApplication<Application>().getSharedPreferences("group_analyzer_prefs", Application.MODE_PRIVATE)\n        prefs.edit().putBoolean("onboarding_complete", true).apply()\n        _currentScreen.value = Screen.Home\n    }\n' app/src/main/java/com/example/ui/ChatViewModel.kt

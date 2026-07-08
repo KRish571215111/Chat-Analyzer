@@ -1,0 +1,1 @@
+sed -i 's/val sdf = SimpleDateFormat("MMM dd, yyyy", Locale.getDefault())/val sdf = java.text.SimpleDateFormat("MMM dd, yyyy", java.util.Locale.getDefault())/g' app/src/main/java/com/example/ui/screens/SearchScreen.kt

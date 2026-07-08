@@ -1,0 +1,1 @@
+sed -i 's/is Screen.Home -> HomeScreen(viewModel, modifier = modifier)/is Screen.Onboarding -> OnboardingScreen(viewModel, modifier = modifier)\n            is Screen.Home -> HomeScreen(viewModel, modifier = modifier)/' app/src/main/java/com/example/MainActivity.kt

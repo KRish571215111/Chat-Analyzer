@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Report</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <span class="material-icons-outlined">insights</span>
+                Analytics
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#dashboard" class="nav-item active"><span class="material-icons-outlined nav-icon">dashboard</span> Dashboard</a>
+                <a href="#members" class="nav-item"><span class="material-icons-outlined nav-icon">group</span> Members</a>
+                <a href="#messages" class="nav-item"><span class="material-icons-outlined nav-icon">forum</span> Messages</a>
+                <a href="#analytics" class="nav-item"><span class="material-icons-outlined nav-icon">insights</span> Analytics</a>
+                <a href="#gallery" class="nav-item"><span class="material-icons-outlined nav-icon">photo_library</span> Media</a>
+                <a href="#reports" class="nav-item"><span class="material-icons-outlined nav-icon">summarize</span> Reports</a>
+            </nav>
+        </aside>
+        <div class="main-wrapper">
+            <header class="topbar">
+                <div style="font-weight:600; color:var(--primary-dark);">WhatsApp Export Analytics</div>
+                <div class="topbar-actions">
+                    <button id="theme-toggle" class="icon-btn"><span class="material-icons-outlined">dark_mode</span></button>
+                </div>
+            </header>
+            <main id="page-container" class="page-container"></main>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

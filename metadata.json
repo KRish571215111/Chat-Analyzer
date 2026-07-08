@@ -1,0 +1,6 @@
+{
+  "name": "Group Analyzer AI",
+  "description": "Analyze WhatsApp group chat exports with statistics, participant insights, and AI features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

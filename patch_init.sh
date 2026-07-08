@@ -1,0 +1,2 @@
+sed -i 's/_currentScreen = MutableStateFlow<Screen>(Screen.Home)/_currentScreen = MutableStateFlow<Screen>(Screen.Onboarding)/' app/src/main/java/com/example/ui/ChatViewModel.kt
+sed -i 's/_secureStorage.value = prefs.getBoolean("secure_storage", false)/_secureStorage.value = prefs.getBoolean("secure_storage", false)\n        val onboardingComplete = prefs.getBoolean("onboarding_complete", false)\n        if (onboardingComplete) {\n            _currentScreen.value = Screen.Home\n        }/' app/src/main/java/com/example/ui/ChatViewModel.kt
